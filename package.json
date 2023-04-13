@@ -1,6 +1,6 @@
 {
-  "name": "com.firstsampleview",
-  "version": "0.1.0",
+  "name": "com.comfirstsampleview",
+  "version": "1.0.0",
   "description": "test",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -41,7 +41,10 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/Brittognanaraj/firstAndroidNativeUIReactNative.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brittognanaraj/firstAndroidNativeUIReactNative.git"
+  },
   "author": "Britto gnana raj <brittod1990@gmail.com> (https://github.com/Brittognanaraj/firstAndroidNativeUIReactNative.git)",
   "license": "MIT",
   "bugs": {
@@ -156,5 +159,8 @@
         }
       ]
     ]
+  },
+  "directories": {
+    "example": "example"
   }
 }

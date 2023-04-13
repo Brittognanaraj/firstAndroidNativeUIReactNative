@@ -9,8 +9,9 @@ const options = {
   env: process.env,
   stdio: 'inherit',
   encoding: 'utf-8',
+  shell: true
 };
-
+ 
 if (os.type() === 'Windows_NT') {
   options.shell = true;
 }
