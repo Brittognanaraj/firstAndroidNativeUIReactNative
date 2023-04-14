@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-class NativeNumberGeneratorPackage implements ReactPackage {
+public class NativeNumberGeneratorPackage implements ReactPackage {
 
     @NonNull
     @Override

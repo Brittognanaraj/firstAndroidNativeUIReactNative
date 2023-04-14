@@ -1,12 +1,11 @@
 package com.comfirstsampleview;
 
 import androidx.annotation.NonNull;
-
 import com.facebook.react.uimanager.SimpleViewManager;
 import com.facebook.react.uimanager.ThemedReactContext;
 import com.facebook.react.uimanager.annotations.ReactProp;
 
-class NativeNumberGeneratorViewManager extends SimpleViewManager<NativeNumberGeneratorView>  {
+public class NativeNumberGeneratorViewManager extends SimpleViewManager<NativeNumberGeneratorView>  {
 
     @ReactProp(name="initialNumber")
     public void setInitialNumberProp(NativeNumberGeneratorView view,int initialNumber){
